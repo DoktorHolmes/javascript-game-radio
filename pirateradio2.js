@@ -95,4 +95,4 @@ voiceline.currentTime = 0.1;
 
 
 
-playRandomHello();
+playRandomSong1();
