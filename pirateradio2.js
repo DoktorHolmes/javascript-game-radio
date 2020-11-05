@@ -28,7 +28,7 @@ voiceline.currentTime = 0.1;
 voiceline.addEventListener('loadedmetadata', function(){
 voiceline.currentTime = 0.1;
 }, false);
-		voiceline.addEventListener('ended', playRandomSong1, false);
+		voiceline.addEventListener('ended', playRandomCommercial, false);
 		voiceline.play();
 	}
 
@@ -48,7 +48,7 @@ voiceline.currentTime = 0.1;
 voiceline.addEventListener('loadedmetadata', function(){
 voiceline.currentTime = 0.1;
 }, false);
-		voiceline.addEventListener('ended', playRandomCommercial, false);
+		voiceline.addEventListener('ended', playRandomSong2, false);
 		voiceline.play();
 	}
 
@@ -89,7 +89,7 @@ voiceline.currentTime = 0.1;
 voiceline.addEventListener('loadedmetadata', function(){
 voiceline.currentTime = 0.1;
 }, false);
-		voiceline.addEventListener('ended', playRandomSong2, false);
+		voiceline.addEventListener('ended', playRandomSong1, false);
 		voiceline.play();
 	}
 
